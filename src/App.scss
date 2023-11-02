@@ -1,0 +1,67 @@
+// Variables
+$profile-pic-size: 100px;
+$container-padding: 10px;
+$background-color: #f0f0f0;
+$primary-color: #0073e6;
+$secondary-color: #7300e6;
+
+// Mixins
+@mixin container {
+	padding: $container-padding;
+	background-color: $background-color;
+}
+
+@mixin flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+// Rules
+.profile-pic {
+	width: $profile-pic-size;
+	height: $profile-pic-size;
+	border-radius: 50%;
+}
+
+.container {
+	@include container;
+}
+
+.post-container {
+	@include container;
+	margin-top: 20px;
+}
+
+.primary-btn {
+	background-color: $primary-color;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.secondary-btn {
+	background-color: $secondary-color;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.like-container {
+	@include flex-center;
+	margin-top: 10px;
+}
+
+.comment-container {
+	@include flex-center;
+	margin-top: 10px;
+}
+
+.share-container {
+	@include flex-center;
+	margin-top: 10px;
+}
