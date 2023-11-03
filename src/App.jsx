@@ -1,7 +1,13 @@
 import React from 'react'
+import './App.scss'
+import LoginComponent from './components/organisms/LoginComponent/LoginComponent'
 
-const App = () => {
-	return <div>Instagram App</div>
+function App() {
+	return (
+		<div className='app'>
+			<LoginComponent />
+		</div>
+	)
 }
 
 export default App
