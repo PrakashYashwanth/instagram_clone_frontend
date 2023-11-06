@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import LoginForm from '../../atoms/LoginForm'
+import LoginForm from '../../molecules/LoginForm'
 import './LoginComponent.scss'
 import IMAGES from '../../../utils/images'
 
