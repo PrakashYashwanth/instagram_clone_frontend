@@ -1,11 +1,4 @@
 .login_from {
-	color: rgb(0, 0, 0);
-	display: flex;
-	flex-direction: column;
-	flex-grow: 1;
-	justify-content: center;
-	margin-top: 12px;
-	max-width: 350px;
 	.login_form_comp {
 		align-items: center;
 		background-color: rgb(255, 255, 255);
@@ -55,6 +48,103 @@
 					.form_inner_div {
 						margin: 0 40px 6px;
 					}
+					.login_button {
+						color: rgb(255, 255, 255);
+						background-color: rgb(0, 149, 246);
+						border: none;
+						opacity: 0.7;
+						margin: 8px 40px;
+						cursor: pointer;
+						padding: 7px 16px;
+						font-size: 14px;
+						font-weight: 600;
+						border-radius: 8px;
+					}
+					.or_section {
+						margin: 10px 40px 18px;
+						display: flex;
+						align-items: center;
+						.line_section {
+							top: 0.45em;
+							height: 1px;
+							flex-grow: 1;
+							background-color: rgb(219, 219, 219);
+						}
+						.main_or {
+							text-transform: uppercase;
+							margin: 0 18px 0 18px;
+							color: rgb(115, 115, 115);
+							font-weight: 600;
+							font-size: 0.8125rem;
+							line-height: 1.1538;
+						}
+					}
+					.login_fb_section {
+						margin: 8px 40px;
+						text-align: center;
+						.fb_login_button {
+							cursor: pointer;
+							border: 0;
+							font-weight: 600;
+							background: none;
+							line-height: 18px;
+							.fb_logo {
+								border: 0;
+								display: inline-block;
+								font: inherit;
+								font-size: 100%;
+								margin: 0;
+								margin-right: 8px;
+								padding: 0;
+								position: relative;
+								top: 3px;
+								vertical-align: baseline;
+								background-repeat: no-repeat;
+								background-position: -414px -259px;
+								height: 16px;
+								width: 16px;
+								background-image: url('https://static.cdninstagram.com/rsrc.php/v3/y5/r/TJztmXpWTmS.png');
+							}
+							.fb_button_text {
+								color: #385185;
+							}
+						}
+					}
+				}
+				.forgot_password_link {
+					color: rgb(0, 55, 107);
+					font-size: 12px;
+					line-height: 16px;
+					margin-top: 12px;
+					text-align: center;
+					text-decoration: none;
+				}
+			}
+		}
+		.no_account {
+			.signup_para {
+				margin: 15px;
+				.singup_link {
+					color: rgb(0, 149, 246);
+					text-decoration: none;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+	.get_app_section {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		.get_app_logos {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			margin: 10px 0 10px 0;
+			.app_logo {
+				margin-right: 8px;
+				.logo_image {
+					height: 40px;
 				}
 			}
 		}

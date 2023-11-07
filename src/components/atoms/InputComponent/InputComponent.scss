@@ -1,92 +1,47 @@
-._ab32 {
+.input_comp {
 	margin: 0 40px 6px;
 }
-.xso031l {
+.input_comp_div {
+	display: flex;
 	border-bottom-width: 1px;
-}
-.xh8yej3 {
 	width: 100%;
-}
-.x1xp9za0 {
 	border-bottom-color: rgb(219, 219, 219);
-}
-.x1q0q8m5 {
 	border-bottom-style: solid;
-}
-.xy80clv {
 	border-left-width: 1px;
-}
-.xvs91rp {
-	font-size: '14px';
-}
-.xu3j5b3 {
+	font-size: 14px;
 	border-right-style: solid;
-}
-.xnz67gz {
 	background-color: rgb(250, 250, 250);
-}
-.xm81vs4 {
 	border-right-width: 1px;
-}
-.x9f619 {
 	box-sizing: border-box;
-}
-.x78zum5 {
-	display: flex;
-}
-.x6s0dn4 {
 	align-items: center;
-}
-.x5n08af {
 	color: rgb(0, 0, 0);
-}
-.x26u7qi {
 	border-left-style: solid;
-}
-.x1q0g3np {
 	flex-direction: row;
-}
-.x1npaq5j {
 	border-top-left-radius: 3px;
-}
-.x1nk0tez {
 	border-right-color: rgb(219, 219, 219);
-}
-.x1n2onr6 {
-	position: relative;
-}
-.x1hm1hlx {
 	border-left-color: rgb(219, 219, 219);
-}
-.x1enjb0b {
 	border-bottom-right-radius: 3px;
-}
-.x1c83p5e {
 	border-top-right-radius: 3px;
-}
-.x19gtwsn {
 	border-top-color: rgb(219, 219, 219);
-}
-.x199158v {
 	border-bottom-left-radius: 3px;
-}
-.x178xt8z {
 	border-top-width: 1px;
-}
-.x13fuv20 {
 	border-top-style: solid;
+	.password_button_comp {
+		margin-left: 8px;
+		margin-right: 8px;
+		.password_button {
+			color: rgb(38, 38, 38);
+			background-color: transparent;
+			border: 0;
+			display: inline-block;
+			padding: 0;
+			position: relative;
+			font-weight: 600;
+			font-size: 14px;
+		}
+	}
 }
-._ab3b {
-	border: 0;
-	display: flex;
-	flex-direction: column;
-	font: inherit;
-	font-size: 100%;
-	margin: 0;
-	padding: 0;
-	vertical-align: baseline;
-}
-._aa48 {
+.input_lable {
 	border: 0;
 	display: flex;
 	flex: 1 0 0px;
@@ -99,11 +54,11 @@
 	position: relative;
 	vertical-align: baseline;
 }
-._aa4a {
+.input_lable_text {
 	border: 0;
 	color: rgb(115, 115, 115);
 	font: inherit;
-	font-size: '12px';
+	font-size: 12px;
 	height: 36px;
 	left: 8px;
 	line-height: 36px;
@@ -116,18 +71,10 @@
 	text-overflow: ellipsis;
 	transform-origin: left;
 	transition: transform ease-out 0.1s;
-	// -webkit-user-select: none;
 	vertical-align: baseline;
 	white-space: nowrap;
 }
-._aa49 ._aa4a {
-	transform: scale(calc(10 / 12)) translateY(-10px);
-}
-._aa49 ._aa4b {
-	font-size: var(--system-12-font-size);
-	padding: 14px 0 2px 8px !important;
-}
-._add6 {
+.input_lable_value {
 	background: rgb(250, 250, 250);
 	border: 0;
 	flex: 1 0 auto;
@@ -136,4 +83,7 @@
 	overflow: hidden;
 	padding: 9px 0 7px 8px;
 	text-overflow: ellipsis;
+}
+.afterVal .input_lable_text {
+	transform: scale(calc(10 / 12)) translateY(-10px);
 }
